@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    width:600px;
+    margin:auto;
+    background-color: plum;
+    
+    
+}
+
+fieldset {
+    margin-bottom:10px;
+    
+    
+    
+}
+
+div {
+    margin-top:10px;
+    margin-bottom:10px;
+    display: inline-block;
+    margin-left:10px;
+    
+    
+}
+
+.experiencia {
+    width: 40em;
+    height:10em;
+    
+}
+
+#nome {
+    margin-left: 10px;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

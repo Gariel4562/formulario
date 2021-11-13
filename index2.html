@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo/style3.css">
+    <link rel="shortcut icon" href="imagens/document.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Formulário de devs</h1>
+        <p>Aqui você vai se cadastrar para concorrer as vagas de devs</p>
+
+        <div class="redes">
+            <ul>
+            <li><a href="https://pt-br.facebook.com/" target="_blank"><img src="imagens/face.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/login/pt" target="_blank"><img src="imagens/linkedin.png" alt=""></a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/RSS" target="_blank"><img src="imagens/rss.png" alt=""></a></li>
+            <li><a href="https://twitter.com/login?lang=pt" target="_blank"><img src="imagens/tw.png" alt=""></a></li>
+        </ul>
+
+        
+
+
+
+        </div>
+
+        <div class="busca">
+            <input placeholder="pesquisar" type="text"/>
+
+
+
+
+
+        </div>
+
+
+
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="index3.html">Formulário</a>
+        <a href="index2.html">Fale Conosco</a>
+
+    
+
+
+
+
+
+
+    </nav>
+
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+
+
+        <p>Por gentileza click aqui para pegar meus contatos</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <footer>
+
+        <p>Site desenvolvido por Bielzão</p>
+
+
+
+    </footer>
+
+    <script>
+        var a = window.document.getElementById('area')
+
+        function clicar () {
+            a.innerHTML = 'Cel : 9999-99999'
+            a.style.background = 'red'
+
+
+
+        }
+
+        function sair () {
+            a.innerHTML = 'Muito obrigado!'
+            a.style.background = 'green'
+        }
+
+        function entrar () {
+            a.innerHTML = 'Por gentileza click aqui para pegar meus contatos'
+
+
+        }
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+    
+</body>
+</html>

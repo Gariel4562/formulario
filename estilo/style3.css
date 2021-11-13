@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+
+:root {
+
+    --cor:#4113E8;
+    --cor0:#1F68B3;
+    --cor1:#7551f7;
+    --cor2:#3A11CF;
+    --cor3:#2F0DA8;
+    --cor4:#1D0869;
+
+    --fonte-padrao:arial, verdana, helvetica, sans-serif;
+    --fonte-destaque:'Roboto', sans-serif;
+
+
+
+
+}
+
+body {
+    background-color:skyblue;
+    text-align: center;
+    font-family:  var(--fonte-padrao);
+    font-size:16px;
+}
+
+header {
+    background-color:var(--cor1);
+    font-family: var(--fonte-destaque);
+    min-height:150px;
+    padding-top:40px;
+    text-align: center;
+
+
+
+
+
+
+}
+
+nav {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    padding:5px;
+    
+    
+    
+
+}
+
+nav a {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+    transition-duration:.5s;
+    padding:5px;
+    
+}
+
+nav a:hover {
+    background-color: var(--cor4);
+    color:white;
+
+
+}
+
+header h1 {
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), transparent);
+    color: white;
+    font-family: var(--fonte-destaque);
+    margin-bottom:20px;
+    font-size: 3em;
+    box-shadow: 2px 2px 2px 0px solid rgba(0, 0, 0, 0.267);
+    
+
+
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.452);
+    color:white;
+    margin-top:30px;
+    text-align: center;
+    
+
+
+
+}
+
+header p {
+    font-size:1.5em;
+    color:white;
+    font-family: var(--fonte-padrao);
+
+}
+
+.redes ul li {
+    margin-left:20px;
+    display:inline-block;
+    float:left;
+    list-style:none;
+    margin-top:10px;
+
+
+
+
+}
+
+.redes {
+    width:30%;
+    float:left;
+}
+
+.busca {
+    text-align: center;
+    width:25%;
+    float:right;
+    margin-top:15px;
+
+
+}
+
+.busca input {
+    background-image: url(../imagens/icone-search.png);
+    background-repeat:no-repeat;
+    height:10px;
+    padding:5px;
+    width:150px;
+    margin-top:0px;
+    background-position:96%; }
+
+    #area {
+        width:600px;
+        height: 600px;
+        text-align: center;
+        margin:auto;
+        line-height: 600px;
+        background-color: green;
+        box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.267);
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    
